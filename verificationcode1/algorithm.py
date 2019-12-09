@@ -1,7 +1,7 @@
 from PIL import Image
 import pytesseract
 
-def reduct_noise(path):
+def get_verification_code(path):
     #open the image
     image = Image.open(path)
     
