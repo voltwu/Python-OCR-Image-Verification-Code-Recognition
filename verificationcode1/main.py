@@ -1,5 +1,5 @@
 import algorithm
 
 if __name__ == "__main__":
-    code = algorithm.reduct_noise("img.jpg")
+    code = algorithm.get_verification_code("img.jpg")
     print(code)
